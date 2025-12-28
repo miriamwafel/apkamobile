@@ -1,0 +1,15 @@
+name: Build App
+on:
+  push:
+    branches: ["main"]
+jobs:
+  build_android:
+    name: Build Android
+    type: build
+    params:
+      platform: android
+  build_ios:
+    name: Build iOS
+    type: build
+    params:
+      platform: ios
