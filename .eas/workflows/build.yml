@@ -8,10 +8,10 @@ jobs:
     type: build
     params:
       platform: android
-      profile: production
+      profile: preview
   build_ios:
     name: Build iOS
     type: build
     params:
       platform: ios
-      profile: production
+      profile: preview
